@@ -1,0 +1,292 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+}
+
+
+.fundo {
+
+width: 1340px;
+height: 459px;
+}
+
+
+.header {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+top: 94%;
+left: 261%;
+gap: 24%;
+
+}
+
+.h1 {
+  font-size: 4vw;
+  
+
+}
+.texto {
+  position: absolute;
+  top: 20%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  font-family: Luckiest Guy;
+ font-size: 56px;
+ font-weight: 400;
+ line-height: 56px;
+ letter-spacing: 0em;
+ text-align: center;
+
+}
+.texto1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+ 
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.retangulo {
+  
+  position: absolute;
+  left: 30vw;
+  top: -10vw;
+ margin: 0 2vw;
+ display: block;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.retangulo1 {
+ position: absolute;
+  left: -6vw;
+  top: -0vw;
+ margin: 0 2vw;
+ display: block;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+
+.botao {
+  background-color: #ffffff;
+  
+  
+
+}
+
+
+.col1 {
+
+  position: relative;
+  width: 100%;
+  top: -10%;
+
+  
+}
+
+.col2 {
+
+  position: relative;
+  width: 100%;
+  top: -10%;
+
+  
+}
+
+
+
+
+.image {
+  
+  position: relative;
+  left: -30px;
+   top: -230px;
+
+  
+  
+}
+
+.texto2 {
+      position: absolute;
+      top: 10px;
+      margin-left: -20px;
+     margin-top: -400px;
+     letter-spacing: 2px;
+     font-size: calc(1em +3vw);
+     line-height: 54.47px;
+     font-family: Open Sans;
+     font-weight: 800;
+     word-wrap: break-word;
+}
+
+.texto3 {
+position: absolute;
+ top: 250%;
+ margin-left: -15%;
+ margin-top: -120%;
+ font-size: calc(1em +3vw);
+ line-height: 16.79px;
+ letter-spacing: 4px;
+ font-family: Open Sans;
+ font-weight: 400%;
+ padding: 10%;
+ word-wrap: break-word;
+}
+ 
+
+
+
+.image1 {
+  justify-content: space-between;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.texto4 {
+
+  color: #23272A;
+  font-size: calc(1em +3vw);
+   font-family: Open Sans;
+   font-weight: 800;
+   word-wrap: break-word;
+
+}
+
+.texto5 {
+
+  color: #23272A;
+  font-size: calc(1em +3vw);
+   font-family: Open Sans;
+   font-weight: 400;
+   word-wrap: break-word;
+}
+ 
+
+
+
+.image2 {
+
+  max-width: 100%;
+  height: auto;
+}
+
+
+.texto6 {
+ 
+  color: #23272A;
+  font-size: calc(1em +3vw);
+   font-family: Open Sans;
+   font-weight: 400;
+   word-wrap: break-word;
+}
+
+.texto7 {
+
+  
+color: #23272A;
+font-size: calc(1em +3vw);
+ font-family: Open Sans;
+ font-weight: 800;
+ word-wrap: break-word;
+}
+
+
+
+
+.image3 {
+
+  min-width: 50%;
+  height: auto;
+}
+
+.texto8 {
+
+color: #23272A;
+font-size: calc(1em +3vw);
+ font-family: Luckiest Guy;
+ font-weight: 400;
+ word-wrap: break-word;
+}
+
+.texto9 {
+
+  
+color: #23272A;
+font-size: calc(1em +3vw);
+ font-family: Open Sans;
+ font-weight: 400;
+ word-wrap: break-word;
+}
+
+
+
+
+.rodape {
+  
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+
+
+@media (max-width:450px) {
+
+.header { display: flex;}
+.texto {font-size: 14px; }
+ .container { flex-direction: column;}
+ .retangulo ,.retangulo1 { width: 100px;height: 50px;}
+ 
+}
+
+
+
+@media (width:375px) {
+
+  .texto { font-size: 12px;}
+  .container{ flex-direction: column;}
+  .retangulo ,.retangulo1 { width: 100px;height: 50px;}
+  
+}
+
+
+
+
+
+
+@media (min-width:768px)and (max-width:1024px) {
+
+.texto { font-size: 16px;}
+.h1 { font-size: 16px;}
+.container {flex-direction: row;}
+.retangulo,.retangulo1 { width: 100px;height: 100px;}
+
+}
+
+
+
